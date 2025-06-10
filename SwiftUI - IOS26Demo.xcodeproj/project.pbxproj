@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2D43621E2DF8CD800016B9A3 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D43622D2DF8CD820016B9A3 /* DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D4362372DF8CD820016B9A3 /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D43621E2DF8CD800016B9A3 /* SwiftUI - IOS26Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI - IOS26Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D43622D2DF8CD820016B9A3 /* SwiftUI - IOS26DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI - IOS26DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D4362372DF8CD820016B9A3 /* SwiftUI - IOS26DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI - IOS26DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -85,9 +85,9 @@
 		2D43621F2DF8CD800016B9A3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2D43621E2DF8CD800016B9A3 /* Demo.app */,
-				2D43622D2DF8CD820016B9A3 /* DemoTests.xctest */,
-				2D4362372DF8CD820016B9A3 /* DemoUITests.xctest */,
+				2D43621E2DF8CD800016B9A3 /* SwiftUI - IOS26Demo.app */,
+				2D43622D2DF8CD820016B9A3 /* SwiftUI - IOS26DemoTests.xctest */,
+				2D4362372DF8CD820016B9A3 /* SwiftUI - IOS26DemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2D43621D2DF8CD800016B9A3 /* Demo */ = {
+		2D43621D2DF8CD800016B9A3 /* SwiftUI - IOS26Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D4362412DF8CD820016B9A3 /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildConfigurationList = 2D4362412DF8CD820016B9A3 /* Build configuration list for PBXNativeTarget "SwiftUI - IOS26Demo" */;
 			buildPhases = (
 				2D43621A2DF8CD800016B9A3 /* Sources */,
 				2D43621B2DF8CD800016B9A3 /* Frameworks */,
@@ -110,16 +110,16 @@
 			fileSystemSynchronizedGroups = (
 				2D4362202DF8CD800016B9A3 /* Demo */,
 			);
-			name = Demo;
+			name = "SwiftUI - IOS26Demo";
 			packageProductDependencies = (
 			);
 			productName = Demo;
-			productReference = 2D43621E2DF8CD800016B9A3 /* Demo.app */;
+			productReference = 2D43621E2DF8CD800016B9A3 /* SwiftUI - IOS26Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D43622C2DF8CD820016B9A3 /* DemoTests */ = {
+		2D43622C2DF8CD820016B9A3 /* SwiftUI - IOS26DemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D4362442DF8CD820016B9A3 /* Build configuration list for PBXNativeTarget "DemoTests" */;
+			buildConfigurationList = 2D4362442DF8CD820016B9A3 /* Build configuration list for PBXNativeTarget "SwiftUI - IOS26DemoTests" */;
 			buildPhases = (
 				2D4362292DF8CD820016B9A3 /* Sources */,
 				2D43622A2DF8CD820016B9A3 /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				2D4362302DF8CD820016B9A3 /* DemoTests */,
 			);
-			name = DemoTests;
+			name = "SwiftUI - IOS26DemoTests";
 			packageProductDependencies = (
 			);
 			productName = DemoTests;
-			productReference = 2D43622D2DF8CD820016B9A3 /* DemoTests.xctest */;
+			productReference = 2D43622D2DF8CD820016B9A3 /* SwiftUI - IOS26DemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2D4362362DF8CD820016B9A3 /* DemoUITests */ = {
+		2D4362362DF8CD820016B9A3 /* SwiftUI - IOS26DemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D4362472DF8CD820016B9A3 /* Build configuration list for PBXNativeTarget "DemoUITests" */;
+			buildConfigurationList = 2D4362472DF8CD820016B9A3 /* Build configuration list for PBXNativeTarget "SwiftUI - IOS26DemoUITests" */;
 			buildPhases = (
 				2D4362332DF8CD820016B9A3 /* Sources */,
 				2D4362342DF8CD820016B9A3 /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				2D43623A2DF8CD820016B9A3 /* DemoUITests */,
 			);
-			name = DemoUITests;
+			name = "SwiftUI - IOS26DemoUITests";
 			packageProductDependencies = (
 			);
 			productName = DemoUITests;
-			productReference = 2D4362372DF8CD820016B9A3 /* DemoUITests.xctest */;
+			productReference = 2D4362372DF8CD820016B9A3 /* SwiftUI - IOS26DemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2D4362192DF8CD800016B9A3 /* Build configuration list for PBXProject "Demo" */;
+			buildConfigurationList = 2D4362192DF8CD800016B9A3 /* Build configuration list for PBXProject "SwiftUI - IOS26Demo" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2D43621D2DF8CD800016B9A3 /* Demo */,
-				2D43622C2DF8CD820016B9A3 /* DemoTests */,
-				2D4362362DF8CD820016B9A3 /* DemoUITests */,
+				2D43621D2DF8CD800016B9A3 /* SwiftUI - IOS26Demo */,
+				2D43622C2DF8CD820016B9A3 /* SwiftUI - IOS26DemoTests */,
+				2D4362362DF8CD820016B9A3 /* SwiftUI - IOS26DemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		2D43622F2DF8CD820016B9A3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D43621D2DF8CD800016B9A3 /* Demo */;
+			target = 2D43621D2DF8CD800016B9A3 /* SwiftUI - IOS26Demo */;
 			targetProxy = 2D43622E2DF8CD820016B9A3 /* PBXContainerItemProxy */;
 		};
 		2D4362392DF8CD820016B9A3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D43621D2DF8CD800016B9A3 /* Demo */;
+			target = 2D43621D2DF8CD800016B9A3 /* SwiftUI - IOS26Demo */;
 			targetProxy = 2D4362382DF8CD820016B9A3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -491,7 +491,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Demo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI - IOS26Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUI - IOS26Demo";
 				XROS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Debug;
@@ -516,7 +516,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Demo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI - IOS26Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUI - IOS26Demo";
 				XROS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Release;
@@ -572,7 +572,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D4362192DF8CD800016B9A3 /* Build configuration list for PBXProject "Demo" */ = {
+		2D4362192DF8CD800016B9A3 /* Build configuration list for PBXProject "SwiftUI - IOS26Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D43623F2DF8CD820016B9A3 /* Debug */,
@@ -581,7 +581,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D4362412DF8CD820016B9A3 /* Build configuration list for PBXNativeTarget "Demo" */ = {
+		2D4362412DF8CD820016B9A3 /* Build configuration list for PBXNativeTarget "SwiftUI - IOS26Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D4362422DF8CD820016B9A3 /* Debug */,
@@ -590,7 +590,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D4362442DF8CD820016B9A3 /* Build configuration list for PBXNativeTarget "DemoTests" */ = {
+		2D4362442DF8CD820016B9A3 /* Build configuration list for PBXNativeTarget "SwiftUI - IOS26DemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D4362452DF8CD820016B9A3 /* Debug */,
@@ -599,7 +599,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D4362472DF8CD820016B9A3 /* Build configuration list for PBXNativeTarget "DemoUITests" */ = {
+		2D4362472DF8CD820016B9A3 /* Build configuration list for PBXNativeTarget "SwiftUI - IOS26DemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D4362482DF8CD820016B9A3 /* Debug */,

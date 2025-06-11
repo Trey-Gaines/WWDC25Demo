@@ -28,8 +28,6 @@ struct WebBrowser: View {
         return !webURL.isEmpty
     }
     
-    
-    
     var body: some View {
         NavigationStack {
             ZStack {
@@ -48,7 +46,7 @@ struct WebBrowser: View {
                             } label: {
                                 Text(pin.absoluteString)
                                     .foregroundStyle(.white)
-                                    .font(.title)
+                                    .font(.title2)
                                     .fontWeight(.semibold)
                             }
                             .buttonStyle(.glass)
@@ -78,7 +76,7 @@ struct WebBrowser: View {
                                     .frame(width: 50, height: 40)
                             }
                         }
-                        .disabled(readyToGo)
+                        .disabled(!readyToGo)
                         .animation(.easeInOut(duration: 0.25), value: webURL)
                         .buttonStyle(.glass)
                     }
@@ -142,6 +140,7 @@ struct WebSheet: View {
                                         }
                                         
                                         Button {
+                                            str = ""
                                             dismiss()
                                         } label: {
                                             Image(systemName: "xmark.circle.fill")

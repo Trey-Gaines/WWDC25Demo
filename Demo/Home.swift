@@ -9,6 +9,7 @@ import SwiftUI
 struct Home: View {
     @State private var isExpanded = false
     @Namespace private var animationA
+    
     var body: some View {
         ZStack {
             Image("Background")
@@ -40,7 +41,7 @@ struct Home: View {
                             }
                             
                             Button {
-                                withAnimation(.smooth(duration: 1, extraBounce: 0)) {
+                                withAnimation(.smooth(duration: 0.25, extraBounce: 0)) {
                                     isExpanded.toggle()
                                 }
                             } label: {

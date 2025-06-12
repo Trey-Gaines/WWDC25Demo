@@ -33,3 +33,20 @@ struct Scraper: View {
     Scraper()
 }
 
+
+
+
+@Model
+class Recipe {
+    var name: String
+    var URL: URL
+    var ingredients: [String]
+    
+    
+    init(name: String, URL: URL, ingredients: [String]) {
+        self.name = name
+        self.URL = URL
+        self.ingredients = ingredients
+    }
+    
+}

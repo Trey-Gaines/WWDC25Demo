@@ -23,7 +23,7 @@ struct DemoApp: App {
 
     var body: some Scene {
         WindowGroup {
-            Prompts()
+            Search()
         }
         .modelContainer(sharedModelContainer)
     }
